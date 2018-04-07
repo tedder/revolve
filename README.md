@@ -13,11 +13,11 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - 6 [TMC2130](https://www.trinamic.com/products/integrated-circuits/details/tmc2130/) stepper drivers, stall detection, overcurrent/temp
 - 4 Thermistor or Thermocouple inputs (runtime configurable)
 - 4 high power heater outputs
-- 4 GB fast eMMC
+- [4 GB fast eMMC](https://www.micron.com/parts/nand-flash/managed-nand/mtfc2gmdea-0m-wt)
 - Optionally 2 external drivers
 - [Direct coupled PRU lines](http://beagleboard.org/pru) to all drivers
 - Flexible PWM on all 8 MOSFET outputs for flexible EMC passing
-- 4 USB host ports, 1 USB device port
+- [4 USB host ports](http://www.ti.com/lit/ds/slls413l/slls413l.pdf), 1 USB device port
 - 10/100Mbit Ethernet
 - 1080p HDMI
 - Smart power controls
@@ -260,7 +260,7 @@ print "Power expenditure: "+str(Ploss)+ " W"
 ### HDMI
  - Using [TPD12S016](http://www.ti.com/product/TPD12S016)
 ### Ethernet
- - Isolated using magnetics.
+ - Isolated using [magnetics](http://www.link-pp.com/?product/201411246424.html).
 ### Endstops
  - Input buffer [CD4050BD](http://www.ti.com/product/CD4050BD) with HBD: ±1500, CDM: ±1000
 ### Analog
